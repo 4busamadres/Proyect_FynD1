@@ -14,7 +14,7 @@
         tools:layout_editor_absoluteY="259dp">
 
         <Button
-            android:id="@+id/button14"
+            android:id="@+id/btn_menu_Parada"
             android:layout_width="120dp"
             android:layout_height="60dp"
             android:layout_marginBottom="16dp"
@@ -23,12 +23,12 @@
             android:textSize="19sp"
             app:iconSize="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/button15"
+            app:layout_constraintEnd_toStartOf="@+id/btn_menu_Linea"
             app:layout_constraintHorizontal_bias="0.391"
-            app:layout_constraintStart_toEndOf="@+id/button13" />
+            app:layout_constraintStart_toEndOf="@+id/btn_menu_Inicio" />
 
         <Button
-            android:id="@+id/button13"
+            android:id="@+id/btn_menu_Inicio"
             android:layout_width="120dp"
             android:layout_height="60dp"
             android:layout_marginStart="16dp"
@@ -41,7 +41,7 @@
             app:layout_constraintStart_toStartOf="parent" />
 
         <Button
-            android:id="@+id/button15"
+            android:id="@+id/btn_menu_Linea"
             android:layout_width="120dp"
             android:layout_height="60dp"
             android:layout_marginEnd="8dp"
@@ -53,7 +53,7 @@
             app:layout_constraintEnd_toEndOf="parent" />
 
         <EditText
-            android:id="@+id/editTextText2"
+            android:id="@+id/txt_menu_destino"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -67,7 +67,7 @@
             app:layout_constraintVertical_bias="0.249" />
 
         <Button
-            android:id="@+id/btn_inicioSesion_IngresarConGoogle"
+            android:id="@+id/btn_menu_Editar"
             android:layout_width="85dp"
             android:layout_height="78dp"
             android:onClick="abrir_registro_usuario"
@@ -83,7 +83,7 @@
             app:layout_constraintVertical_bias="0.024" />
 
         <Button
-            android:id="@+id/button6"
+            android:id="@+id/btn_menu_Ajustes"
             android:layout_width="51dp"
             android:layout_height="58dp"
             android:onClick="abrir_ajuste"
@@ -99,7 +99,7 @@
             app:layout_constraintVertical_bias="0.022" />
 
         <Button
-            android:id="@+id/button7"
+            android:id="@+id/btn_menu_Favorito"
             android:layout_width="51dp"
             android:layout_height="57dp"
             android:onClick="abrir_favorito"
@@ -115,7 +115,7 @@
             app:layout_constraintVertical_bias="0.025" />
 
         <Button
-            android:id="@+id/button10"
+            android:id="@+id/btn_menu_Soporte"
             android:layout_width="50dp"
             android:layout_height="56dp"
             android:onClick="abrir_soporte"
@@ -141,7 +141,7 @@
             app:iconPadding="0dp"
             app:iconSize="20dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_menu_destino" />
 
         <Button
             android:id="@+id/button17"
@@ -156,7 +156,7 @@
             app:iconTintMode="src_in"
             app:layout_constraintEnd_toStartOf="@+id/button18"
             app:layout_constraintStart_toEndOf="@+id/button16"
-            app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_menu_destino" />
 
         <Button
             android:id="@+id/button18"
@@ -169,7 +169,7 @@
             app:iconPadding="0dp"
             app:iconSize="20dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_menu_destino" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

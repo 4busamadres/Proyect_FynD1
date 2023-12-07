@@ -13,7 +13,7 @@
         android:theme="@style/Theme.Proyect_FynD"
         tools:targetApi="31">
         <activity
-            android:name=".Menu_editar_usuario"
+            android:name=".Menu_registrar_usurious"
             android:exported="false" />
         <activity
             android:name=".Menu_soporte"

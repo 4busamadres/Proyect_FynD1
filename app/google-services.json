@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "587612697105",
+    "project_id": "find-your-destiny-13bd9",
+    "storage_bucket": "find-your-destiny-13bd9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587612697105:android:5d85ab3b8c98ce8073b7b0",
+        "android_client_info": {
+          "package_name": "com.example.findyourdes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaw5OOZL1jnewSFL5AMNO8TgqC-D5nLMY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587612697105:android:29d660a0b0668dc673b7b0",
+        "android_client_info": {
+          "package_name": "com.example.proyect_fynd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaw5OOZL1jnewSFL5AMNO8TgqC-D5nLMY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -11,6 +11,12 @@
         android:layout_height="match_parent"
         tools:context=".Layout.Parada">
 
+        <ListView
+            android:layout_width="332dp"
+            android:layout_height="383dp"
+            tools:layout_editor_absoluteX="39dp"
+            tools:layout_editor_absoluteY="174dp" />
+
         <Button
             android:id="@+id/button2"
             android:layout_width="65dp"
@@ -28,19 +34,19 @@
             app:layout_constraintVertical_bias="0.039" />
 
         <Button
-            android:id="@+id/button9"
+            android:id="@+id/btn_parada_"
             android:layout_width="120dp"
             android:layout_height="60dp"
             android:layout_marginTop="556dp"
             android:text="Paradas"
             android:textSize="19sp"
-            app:layout_constraintEnd_toStartOf="@+id/button8"
+            app:layout_constraintEnd_toStartOf="@+id/btn_parada_Linea"
             app:layout_constraintHorizontal_bias="0.481"
-            app:layout_constraintStart_toEndOf="@+id/button4"
-            app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+            app:layout_constraintStart_toEndOf="@+id/btn_parada_Inicio"
+            app:layout_constraintTop_toBottomOf="@+id/txt_parada_Destino" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/btn_parada_Inicio"
             android:layout_width="120dp"
             android:layout_height="60dp"
             android:layout_marginStart="12dp"
@@ -48,10 +54,10 @@
             android:text="Inicio"
             android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_parada_Destino" />
 
         <Button
-            android:id="@+id/button8"
+            android:id="@+id/btn_parada_Linea"
             android:layout_width="120dp"
             android:layout_height="60dp"
             android:layout_marginTop="4dp"
@@ -59,10 +65,10 @@
             android:text="Lineas"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/button9" />
+            app:layout_constraintTop_toTopOf="@+id/btn_parada_" />
 
         <EditText
-            android:id="@+id/editTextText"
+            android:id="@+id/txt_parada_Destino"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
