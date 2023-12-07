@@ -115,6 +115,7 @@
             android:id="@+id/btn_soporte_Guardar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="gestionarProblema"
             android:text="Guardar"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
