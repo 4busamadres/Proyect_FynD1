@@ -12,6 +12,7 @@
         tools:context=".Layout.Parada">
 
         <ListView
+            android:id="@+id/lv_paradas"
             android:layout_width="332dp"
             android:layout_height="383dp"
             tools:layout_editor_absoluteX="39dp"
