@@ -12,7 +12,7 @@
         tools:context=".Layout.Ajuste">
 
         <Button
-            android:id="@+id/button23"
+            android:id="@+id/btn_ajuste_Guardar"
             android:layout_width="181dp"
             android:layout_height="70dp"
             android:layout_marginTop="292dp"
@@ -38,7 +38,7 @@
             app:layout_constraintVertical_bias="0.167" />
 
         <Button
-            android:id="@+id/button22"
+            android:id="@+id/btn_ajuste_Volver"
             android:layout_width="65dp"
             android:layout_height="49dp"
             android:layout_marginTop="16dp"

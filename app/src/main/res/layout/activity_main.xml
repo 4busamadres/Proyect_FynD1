@@ -15,7 +15,7 @@
         tools:layout_editor_absoluteY="0dp">
 
         <Button
-            android:id="@+id/btn_inicioSesion_Ingresar5"
+            android:id="@+id/btn_inicioSesion_Ingresar_google"
             android:layout_width="180dp"
             android:layout_height="56dp"
             android:layout_marginTop="316dp"
@@ -110,23 +110,23 @@
             app:layout_constraintTop_toBottomOf="@+id/textView" />
 
         <Button
-            android:id="@+id/btn_inicioSesion_Registrar1"
+            android:id="@+id/btn_inicioSesion_Registrar"
             android:layout_width="119dp"
             android:layout_height="46dp"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="24dp"
             android:backgroundTint="#FFFFFF"
             android:onClick="abrir_registro"
             android:text="Registrate"
             android:textColor="#0026F9"
             android:textColorLink="#FFFFFF"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.21"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@+id/textView8"
-            app:layout_constraintTop_toBottomOf="@+id/btn_inicioSesion_Ingresar5" />
+            app:layout_constraintTop_toBottomOf="@+id/btn_inicioSesion_Ingresar_google" />
 
         <EditText
-            android:id="@+id/txt_inicioSesion_usuario4"
+            android:id="@+id/txt_inicioSesion_usuario"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="84dp"
@@ -153,7 +153,7 @@
         app:layout_constraintVertical_bias="0.157" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btn_parada_Inicio"
         android:layout_width="102dp"
         android:layout_height="108dp"
         android:text="Usuario"
