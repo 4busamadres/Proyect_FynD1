@@ -112,5 +112,13 @@
             tools:layout_editor_absoluteX="275dp"
             tools:layout_editor_absoluteY="607dp" />
 
+        <Button
+            android:id="@+id/btn_paradas_buscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@android:drawable/ic_menu_search"
+            tools:layout_editor_absoluteX="306dp"
+            tools:layout_editor_absoluteY="60dp" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

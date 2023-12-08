@@ -7,6 +7,9 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
+
+import com.example.proyect_fynd.R;
+
 import java.util.List;
 import java.util.Map;
 
